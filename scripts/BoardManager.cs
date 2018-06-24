@@ -28,6 +28,10 @@ public class BoardManager : MonoBehaviour {
   private List <Vector3> gridPositions = new List<Vector3>();
   
   void InitialiseList() {
-    
+    for (int x = 1; x < columns - 1; x++) {
+      for (int y = 1; y < rows - 1; y++) {
+        
+      }
+    }
   }
 }
