@@ -34,4 +34,8 @@ public class BoardManager : MonoBehaviour {
       }
     }
   }
+  
+  void BoardSetup() {
+    
+  }
 }
