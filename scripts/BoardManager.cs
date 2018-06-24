@@ -15,5 +15,6 @@ public class BoardManager : MonoBehaviour {
   
   public int columns = 8;
   public int rows = 8;
+  public Count wallCount = new Count (5,9);
   
 }
