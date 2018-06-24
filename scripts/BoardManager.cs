@@ -36,7 +36,7 @@ public class BoardManager : MonoBehaviour {
   }
   
   void BoardSetup() {
-    boardHoarder = new GameObject("Board").transform;
+    boardHolder = new GameObject("Board").transform;
     
   }
 }
