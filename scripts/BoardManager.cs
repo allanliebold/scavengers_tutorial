@@ -17,5 +17,11 @@ public class BoardManager : MonoBehaviour {
   public int rows = 8;
   public Count wallCount = new Count (5,9);
   public foodCount = new Count (1, 5);
+  public GameObject exit;
+  public GameObject[] floorTiles;
+  public GameObject[] wallTiles;
+  public GameObject[] foodTiles:
+  public GameObject[] enemyTiles;
+  public GameObject[] outerWallTiles;
   
 }
